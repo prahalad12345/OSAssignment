@@ -1,0 +1,3 @@
+ans= $1 | wc -c
+ans=($ans - 1)
+echo "$ans"
