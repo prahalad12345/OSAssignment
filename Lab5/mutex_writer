@@ -1,0 +1,145 @@
+The writer process 1 begins.
+0 100
+1 101
+2 102
+3 103
+4 104
+The writer process 2 begins.
+The writer process 3 begins.
+The writer process 4 begins.
+The writer process 5 begins.
+The writer process 6 begins.
+The reader process 1 begins.
+The reader process 2 begins.
+Reader 1: item  0 == 100
+Reader 2: item  0 == 101
+Reader 1: item  1 == 102
+0 105
+Reader 2: item  1 == 103
+1 200
+The reader process 3 begins.
+Reader 1: item  2 == 104
+2 300
+All child processes spawned by parent
+Parent waiting for children to finish
+Reader 2: item  2 == 105
+The reader process 4 begins.
+3 400
+4 500
+The reader process 5 begins.
+Reader 3: item  0 == 200
+Reader 1: item  3 == 300
+0 600
+Reader 2: item  3 == 400
+Reader 4: item  0 == 500
+1 106
+2 201
+Reader 5: item  0 == 600
+3 301
+4 401
+Reader 3: item  1 == 106
+Reader 1: item  4 == 201
+0 501
+Reader 4: item  1 == 301
+Reader 3: item  2 == 401
+1 601
+2 107
+3 202
+4 302
+Reader 2: item  4 == 501
+Reader 2: item  5 == 601
+0 402
+Reader 2: item  6 == 107
+Reader 2: item  7 == 202
+Reader 2: item  8 == 302
+Reader 4: item  2 == 402
+1 203
+2 303
+3 108
+4 502
+0 602
+Reader 4: item  3 == 203
+Reader 3: item  3 == 303
+Reader 5: item  1 == 108
+Reader 1: item  5 == 502
+Reader 4: item  4 == 602
+1 403
+2 204
+3 304
+4 109
+Writer 1 done.
+0 503
+Reader 3: item  4 == 403
+Reader 5: item  2 == 204
+Reader 1: item  6 == 304
+Reader 4: item  5 == 109
+Reader 3: item  5 == 503
+1 603
+2 404
+3 205
+4 305
+0 504
+Reader 5: item  3 == 603
+Reader 1: item  7 == 404
+Reader 4: item  6 == 205
+Reader 3: item  6 == 305
+1 604
+Reader 5: item  4 == 504
+2 405
+3 206
+4 306
+Reader 1: item  8 == 604
+0 505
+Reader 3: item  7 == 405
+Reader 5: item  5 == 206
+Reader 1: item  9 == 306
+1 605
+2 406
+3 207
+4 307
+Reader 2: item  9 == 505
+Reader 2: item 10 == 605
+Reader 2: item 11 == 406
+0 506
+Reader 2 done.
+1 407
+2 606
+Reader 4: item  7 == 207
+Reader 4: item  8 == 307
+Reader 4: item  9 == 506
+Reader 4: item 10 == 407
+Reader 4: item 11 == 606
+3 208
+4 308
+0 408
+1 507
+2 607
+Reader 1: item 10 == 208
+Reader 5: item  6 == 308
+Reader 3: item  8 == 408
+3 209
+Writer 2 done.
+Reader 1: item 11 == 507
+Reader 1 done.
+Reader 5: item  7 == 607
+4 309
+Writer 3 done.
+0 409
+Writer 4 done.
+Reader 3: item  9 == 209
+1 508
+Reader 5: item  8 == 309
+2 608
+Reader 3: item 10 == 409
+3 509
+Writer 5 done.
+Reader 5: item  9 == 508
+4 609
+Writer 6 done.
+Reader 3: item 11 == 608
+Reader 3 done.
+Reader 5: item 10 == 509
+Reader 4 done.
+Reader 5: item 11 == 609
+Reader 5 done.
+Semaphore cleanup complete.
